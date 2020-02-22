@@ -7,8 +7,7 @@ class Dog
   end
 end
 
-fido = Dog.new
-fido.name = "Fido"
-
-snoopy = Dog.new
-snoopy.breed = "Beagle"
+puts fido = Dog.new
+puts fido.name = "Fido"
+puts snoopy = Dog.new
+puts snoopy.breed = "Beagle"
