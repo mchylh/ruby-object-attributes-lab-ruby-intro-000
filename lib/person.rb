@@ -1,12 +1,17 @@
-require 'spec_helper.rb'
 class Person
-  attr_accessor :name, :job
-  def initialize(name, job)
+
+  def name=(name)
     @name = name
+  end
+  def name
+    @name
+  end
+
+  def job=(job)
     @job = job
   end
-end
 
-puts beyonce = Person.new
-puts beyonce.name = "Beyonce"
-puts beyonce.job = "Singer"
+  def job
+    @job
+  end
+end
