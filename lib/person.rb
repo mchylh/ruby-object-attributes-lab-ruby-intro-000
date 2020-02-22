@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'spec_helper.rb'
 class Person
   attr_accessor :name, :job
   def initialize(name, job)
