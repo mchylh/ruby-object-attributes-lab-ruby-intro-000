@@ -1,13 +1,18 @@
-require 'spec_helper.rb'
 class Dog
-  attr_accessor :name, :breed
-  def initialize(name, breed)
+
+  def name=(name)
     @name = name
+  end
+
+  def name
+    @name
+  end
+
+  def breed=(breed)
     @breed = breed
   end
-end
 
-puts fido = Dog.new
-puts fido.name = "Fido"
-puts snoopy = Dog.new
-puts snoopy.breed = "Beagle"
+  def breed
+    @breed
+  end
+end
