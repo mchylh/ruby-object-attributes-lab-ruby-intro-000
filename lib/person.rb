@@ -6,4 +6,4 @@ class Person
 end
 beyonce = Person.new
 beyonce.name = "Beyonce"
-beyounce.job = "Singer"
+beyonce.job = "Singer"
