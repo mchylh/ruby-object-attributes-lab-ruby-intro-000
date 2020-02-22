@@ -7,8 +7,6 @@ class Person
   end
 end
 
-beyonce = Person.new
-beyonce.name = "Beyonce"
-
-beyonce = Person.new
-beyonce.job = "Singer"
+puts beyonce = Person.new
+puts beyonce.name = "Beyonce"
+puts beyonce.job = "Singer"
